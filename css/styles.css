@@ -132,8 +132,17 @@ body {
   margin-left: -0.5em;
 }
 
-.skills__list li {
+.skills__list,
+.goals__list li {
   font-size: 2rem;
   color: #828487;
   padding-bottom: 0.2rem;
+}
+
+#content-goals {
+  top: 45%;
+}
+
+#content-skills {
+  top: 37%;
 }
