@@ -63,7 +63,7 @@ body {
 }
 
 .header__menu-link:hover {
-  color: #ddd7d1;
+  color: #b7ada3;
 }
 
 .content {
@@ -75,7 +75,7 @@ body {
 
 .content__wrapper {
   position: absolute;
-  top: 30%;
+  top: 35%;
   /* bottom: 40%; */
   padding-left: 3.125rem;
 }
@@ -90,8 +90,9 @@ body {
 .address {
   color: #34393d;
 }
-.text {
+.description__text {
   color: #828487;
+  font-size: 1.3rem;
 }
 
 #lastname,
@@ -129,4 +130,10 @@ body {
   left: 50%;
   margin-top: -0.5em;
   margin-left: -0.5em;
+}
+
+.skills__list li {
+  font-size: 2rem;
+  color: #828487;
+  padding-bottom: 0.2rem;
 }
