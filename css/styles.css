@@ -11,10 +11,11 @@
 :root {
   /* COLORS */
   --burnt-sienna: #b36647;
-  --deep-sea: #354f6f;
   --snow-drift: #ece7e2;
-  --teal: #4cb4b3;
-  --blue-gray: #959eb8;
+  --border-clr: #d28c70;
+  --hover-clr: #b7ada3;
+  --title-clr: #34393d;
+  --description-clr: #828487;
 
   /* FONT */
   font-size: 16px;
@@ -46,7 +47,7 @@ body {
 .header__profile-img {
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #d28c70;
+  border: 5px solid var(--border-clr);
 }
 
 .header__nav {
@@ -63,7 +64,7 @@ body {
 }
 
 .header__menu-link:hover {
-  color: #b7ada3;
+  color: var(--hover-clr);
 }
 
 .content {
@@ -76,22 +77,21 @@ body {
 .content__wrapper {
   position: absolute;
   top: 35%;
-  /* bottom: 40%; */
   padding-left: 3.125rem;
 }
 
 .title {
   font-size: 2.813rem;
   margin-bottom: 1rem;
-  /* color: var(--deep-sea); */
-  color: #34393d;
+  color: var(--title-clr);
 }
 
 .address {
-  color: #34393d;
+  color: var(--title-clr);
 }
+
 .description__text {
-  color: #828487;
+  color: var(--description-clr);
   font-size: 1.3rem;
 }
 
@@ -117,7 +117,7 @@ body {
   border-radius: 50%;
   text-align: center;
   margin-right: 1rem;
-  background-color: #34393d;
+  background-color: var(--title-clr);
   position: relative;
 }
 
@@ -135,7 +135,7 @@ body {
 .skills__list,
 .goals__list li {
   font-size: 2rem;
-  color: #828487;
+  color: var(--description-clr);
   padding-bottom: 0.2rem;
 }
 
